@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { hot } from 'react-hot-loader';
 import './App.css';
 
 const App: React.FC = () => {
@@ -23,4 +24,4 @@ const App: React.FC = () => {
   );
 }
 
-export default App;
+export default hot(module)(App);
