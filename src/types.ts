@@ -1,12 +1,12 @@
 /**
- * 定义全局通用类型
+ * 全局通用的类型定义
  */
-import React from 'react'
-import { RouteComponentProps } from 'react-router-dom'
+import React from 'react';
+import { RouteComponentProps } from 'react-router-dom';
 
 export interface Props {
   children?: JSX.Element[] | JSX.Element | React.ReactNode;
-  className?: string; 
+  className?: string;
 }
 
-export interface RoutedProp extends Props, RouteComponentProps {}
+export interface RoutedProps extends Props, RouteComponentProps {}

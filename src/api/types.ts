@@ -1,3 +1,3 @@
-import { AxiosResponse } from 'axios'
+import { AxiosResponse } from 'axios';
 
-export type PromiseReturn = Promise<AxiosResponse>
+export type PromiseReturn = Promise<AxiosResponse>;

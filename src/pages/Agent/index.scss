@@ -1,0 +1,14 @@
+.agent {
+  padding: 18px 0 0 30px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+
+  &-allView {
+    margin-bottom: 16px;
+  }
+
+  &-empty {
+    padding: 20px;
+  }
+}

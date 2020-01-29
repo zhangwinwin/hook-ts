@@ -1,27 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import { hot } from 'react-hot-loader';
-import './App.css';
+import { Router, Switch, Route, Redirect } from 'react-router-dom';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Layout from '@components/Layout/index';
+import DashBoard from '@pages/DashBoard/index';
+import Agent from '@pages/Agent/index';
+import MyCruise from '@pages/MyCruise/index';
+import Help from '@pages/Help/index';
+import NotFound from '@pages/NotFound/index';
 
-export default hot(module)(App);
+import '@resource/css/base.css';
+import '@resource/css/fonts.css';
+
+import history from './history';
+
+const App = () => (
+  <Router history={history}>
+    <Layout>
+      <Switch>
+        <Redirect exact from="/" to="/agent" />
+        <Route path="/dashboard" component={DashBoard} />
+        <Route path="/agent" component={Agent} />
+        <Route path="/mycruise" component={MyCruise} />
+        <Route path="/help" component={Help} />
+        <Route component={NotFound} />
+      </Switch>
+    </Layout>
+  </Router>
+);
+
+export default App;

@@ -1,5 +1,5 @@
-export type Resources = ('Firefox' | 'Safari' | 'Chrome' | 'Ubuntu')[]
-export type Os = 'windows' | 'macos' | 'centos' | 'debian';
+export type Resources = ('Firefox' | 'Safari' | 'Ubuntu' | 'Chrome')[];
+export type Os = 'centos' | 'debian' | 'suse' | 'ubuntu' | 'windows';
 
 export interface AddResources {
   id: number; // agent id
@@ -7,7 +7,7 @@ export interface AddResources {
 }
 
 export interface DeleteResources {
-  id: number;
+  id: number; // agent id
   data: number; // agent id 对应的 resource index
 }
 
@@ -22,16 +22,15 @@ export interface Agent {
   id: number;
 }
 
-export type Agents = Agent[]
-
+export type Agents = Agent[];
 export interface Notice {
   loading: undefined | boolean;
-  newResourceAgentId: undefined | number;
+  newResourceAgentId: undefined | number; // 当前打正在添加 resource 的 agent ID
 }
 
 export interface State {
   agents: Agents;
-  notice: Notice
+  notice: Notice;
 }
 
 export type Action =
