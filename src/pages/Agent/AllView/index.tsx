@@ -19,7 +19,7 @@ const AllView = (props: AgentItemsProps) => {
       </div>
       <div className="agentAllView-idie">
         <i className="icon-coffee" />
-        <h4>IdIe</h4>
+        <h4>finish</h4>
         <span>{idle}</span>
       </div>
       <ul className="agentAllView-type">

@@ -9,11 +9,11 @@ import { RoutedProps } from 'src/types';
 import './index.scss';
 
 const historyList = [
-  'bjstdmngbgr02/Acceptance_test',
-  'bjstdmngbgr03/Acceptance_test',
-  'bjstdmngbgr04/Acceptance_test',
-  'bjstdmngbgr05/Acceptance_test',
-  'bjstdmngbgr06/Acceptance_test'
+  'zhangwinwin02/Acceptance_test',
+  'zhangwinwin03/Acceptance_test',
+  'zhangwinwin04/Acceptance_test',
+  'zhangwinwin05/Acceptance_test',
+  'zhangwinwin06/Acceptance_test'
 ];
 const History = () => (
   <div className="aside-history">
