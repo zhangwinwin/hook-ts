@@ -7,7 +7,7 @@ import './index.scss';
 
 const Footer = (props: Props) => (
   <footer className={cx(props.className, 'footer')}>
-    &copy; Copyright 2019&ensp;
+    &copy; Copyright 2019&ensp;ZhangWinWin
   </footer>
 );
 
