@@ -1,7 +1,7 @@
 {
   "agents": [
     {
-      "name": "bjstdmngbdr01.com",
+      "name": "zhangwinwin01.com",
       "os": "windows",
       "status": "idle",
       "type": "physical",
@@ -13,7 +13,7 @@
       "id": 1
     },
     {
-      "name": "bjstdmngbdr08.com",
+      "name": "zhangwinwin08.com",
       "os": "windows",
       "status": "building",
       "type": "virtual",
@@ -23,7 +23,7 @@
       "id": 2
     },
     {
-      "name": "bjstdmngbdr10.com",
+      "name": "zhangwinwin10.com",
       "os": "ubuntu",
       "status": "building",
       "type": "physical",
@@ -35,7 +35,7 @@
       "id": 3
     },
     {
-      "name": "bjstdmngbdr11.com",
+      "name": "zhangwinwin11.com",
       "os": "debian",
       "status": "building",
       "type": "virtual",
@@ -50,7 +50,7 @@
       "id": 4
     },
     {
-      "name": "bjstdmngbdr15.com",
+      "name": "zhangwinwin15.com",
       "os": "suse",
       "status": "idle",
       "type": "physical",
@@ -60,14 +60,13 @@
       "id": 5
     },
     {
-      "name": "bjstdmngbdr02.com",
+      "name": "zhangwinwin02.com",
       "os": "centos",
       "status": "idle",
       "type": "virtual",
       "ip": "192.168.1.103",
       "location": "/var/lib/cruise-agent",
       "resources": [
-        "Firefox",
         "Safari",
         "Ubuntu",
         "Chrome"
@@ -75,7 +74,7 @@
       "id": 6
     },
     {
-      "name": "bjstdmngbdr04.com",
+      "name": "zhangwinwin04.com",
       "os": "suse",
       "status": "idle",
       "type": "physical",
@@ -90,7 +89,7 @@
       "id": 7
     },
     {
-      "name": "bjstdmngbdr22.com",
+      "name": "zhangwinwin22.com",
       "os": "centos",
       "status": "idle",
       "type": "virtual",
