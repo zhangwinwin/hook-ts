@@ -1,5 +1,5 @@
 {
-  "name": "code",
+  "name": "zhang",
   "version": "1.0.0",
   "description": "a demo project",
   "private": true,
@@ -17,7 +17,7 @@
     "jest",
     "enzyme"
   ],
-  "author": "friday.fj",
+  "author": "zhang",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
