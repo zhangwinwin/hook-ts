@@ -1,10 +1,26 @@
 # HOOKS-TS
+keyword: hook、typeScript
 
-这是一个使用 React Hooks 开发的前端项目，  
-使用了 TypeScrips
+## 简介
+hooks-ts是一个基于kook与typsScript开发的简易后台应用
 
-## 启动应用
+## 开发
+```
+# 克隆项目
+git clone https://github.com/zhangwinwin/hook-ts
 
-1. `npm run start-server`
-2. `npm start`
-3. 浏览器就会自动打开：`http://localhost:9000`
+# 进入项目目录
+cd hook-ts
+
+# 安装客户端依赖
+npm install
+
+# npm 下载速度慢的问题
+npm install --registry=https://registry.npm.taobao.org
+
+# 启动客户端服务
+npm start
+
+# 启动服务端服务
+npm run start-server
+```
