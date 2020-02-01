@@ -24,3 +24,4 @@ npm start
 # 启动服务端服务
 npm run start-server
 ```
+浏览器访问 http://localhost:3001
