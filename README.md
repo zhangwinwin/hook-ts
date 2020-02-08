@@ -2,7 +2,7 @@
 keyword: hook、typeScript
 
 ## 简介
-hooks-ts是一个基于kook与typsScript开发的简易后台应用
+基于kook与typsScript开发的后台应用demo
 
 ## 开发
 ```
