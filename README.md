@@ -2,7 +2,7 @@
 keyword: hook、typeScript
 
 ## 简介
-基于kook与typsScript开发的后台应用demo
+基于kook与typsScript开发的后台应用demo。学习hook和typescript的项目。
 
 ## 开发
 ```
